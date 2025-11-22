@@ -6,6 +6,7 @@ import random
 import asyncio
 import subprocess
 from bot import Bot
+from premium import is_premium
 from database.database import kingdb
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
